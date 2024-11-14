@@ -4,10 +4,10 @@ import pymysql
 import boto3
 
 # RDS Database Configuration
-rds_host = "database-1.cf0sg44ga981.ap-south-1.rds.amazonaws.com"  # Hostname for the RDS MySQL instance
-username = "Shivaadmin"  # Database username
-password = "Shiva780"    # Database password
-database_name = "blkchaindb"  # Target database name
+rds_host = ""  # Hostname for the RDS MySQL instance
+username = ""  # Database username
+password = ""    # Database password
+database_name = ""  # Target database name
 
 # Function to initialize and return an RDS database connection
 def get_db_connection():
